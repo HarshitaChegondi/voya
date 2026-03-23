@@ -31,8 +31,7 @@ Voya includes the following features:
 ## Tech Stack
 
 ### Frontend
-- **React**
-- **Vite**
+- **React + Vite**
 
 ### APIs
 - **Claude API**
