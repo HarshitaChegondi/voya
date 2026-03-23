@@ -38,3 +38,19 @@ Voya includes the following features:
 - **Claude API**
 - **Weather API**
 
+---
+
+## Objective Coverage
+
+This project covers the required objective points clearly:
+
+Required:
+- **Prompt input + submit button**:  Yes, users can enter travel-related prompts and submit them
+- **Fetching from AI API**: Yes, the app connects to Claude API to send prompts and receive responses
+- **Displaying results dynamically**: Yes, results are displayed dynamically using structured response cards
+- **Error handling and loading states**: Yes, the project includes custom loading UI and error handling
+
+##Bonus
+- Yes, the app stores and displays past chats and prompts
+- Include a “Clear” button for the user: Yes, users can delete selected chats or clear all chats
+
