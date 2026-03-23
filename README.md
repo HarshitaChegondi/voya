@@ -79,9 +79,6 @@ VITE_WEATHER_API_KEY=your_weather_api_key
 
 ---
 
-Here’s your updated section with **PowerShell** command formatting:
-
-
 ## Steps to run this project
 
 Follow these steps carefully to run the project locally on **Windows 11**.
