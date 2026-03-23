@@ -61,18 +61,18 @@ Bonus
 To run this project, make sure your system meets the following requirements:
 
 **Supported Operating Systems:**
--> Windows 11
--> macOS
+- Windows 11
+- macOS
 
 **Required Tools:**
--> Node.js
--> npm
--> Git
--> VS Code or any code editor
+1. Node.js
+2. npm
+3. Git
+4. VS Code or any code editor
 
 **Required Accounts / API Access**
--> A valid Claude API key
--> A valid Weather API key
+1. A valid Claude API key
+2. A valid Weather API key
 
 **Install the following software before running the project.**
 
