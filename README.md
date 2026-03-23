@@ -85,26 +85,22 @@ To run this project, make sure your system meets the following requirements:
 - Git is required to clone the project repository.
 
 3. Install VS Code
-
-Install Visual Studio Code from the official VS Code website.
+- Install Visual Studio Code from the official VS Code website.
 
 VS Code is recommended because it provides:
-
-an easy code editor
-built-in terminal
-extensions for React and JavaScript development
-How to Check Installed Versions
+- an easy code editor
+- built-in terminal
+- extensions for React and JavaScript development
+- How to Check Installed Versions
 
 Before running the project, verify that the required software is installed correctly.
-
-On Windows 11
-
-Open one of the following:
+On Windows 11, Open one of the following:
 
 Command Prompt
 PowerShell
 VS Code Terminal
 
 Run these commands:
+
 
 
