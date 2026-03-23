@@ -64,19 +64,18 @@ To run this project, make sure your system meets the following requirements:
 - Windows 11
 - macOS
 
-## Software Installation
-
-Install the following software before running the project:
-
-| Software | Purpose | Notes |
-|----------|---------|-------|
-| **Node.js** | Required to run the React + Vite project | Installing **Node.js** also installs **npm** automatically |
-| **Git** | Required to clone the project repository from GitHub | Needed for `git clone` command |
-| **VS Code** | Recommended code editor for opening and managing the project | Provides an easy editor, built-in terminal, and useful extensions for React and JavaScript development |
-
 **Required Accounts / API Access**
 1. A valid Claude API key
 2. A valid Weather API key
+
+## Add Environment Variables
+
+Create `.env` and paste the following in file:
+
+```env
+VITE_CLAUDE_API_KEY=your_claude_api_key
+VITE_WEATHER_API_KEY=your_weather_api_key
+```
 
 ---
 
@@ -126,7 +125,7 @@ Better version:
 
 
 ### Example project structure
-
+```text
 voya/
 ├── node_modules/
 ├── public/
@@ -134,5 +133,8 @@ voya/
 ├── .env
 ├── package.json
 ├── vite.config.js
+```
+
+
 
 
