@@ -132,9 +132,7 @@ voya/
 ```
 
 
----
-
-## Live Demo
+### Live Demo: 
 
 [View Voya Live](https://harshitachegondi.github.io/voya/)
 
