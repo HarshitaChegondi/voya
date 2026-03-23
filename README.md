@@ -78,25 +78,6 @@ Install the following software before running the project:
 1. A valid Claude API key
 2. A valid Weather API key
 
-**Install the following software before running the project.**
-
-1. Install Node.js:
-- Install Node.js from the official Node.js website.
-- Node.js installation also installs npm automatically.
-
-2. Install Git:
-- Install Git from the official Git website.
-- Git is required to clone the project repository.
-
-3. Install VS Code
-- Install Visual Studio Code from the official VS Code website.
-
-VS Code is recommended because it provides:
-- an easy code editor
-- built-in terminal
-- extensions for React and JavaScript development
-- How to Check Installed Versions
-
 ---
 
 Here’s your updated section with **PowerShell** command formatting:
