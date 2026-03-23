@@ -97,30 +97,42 @@ VS Code is recommended because it provides:
 - extensions for React and JavaScript development
 - How to Check Installed Versions
 
-## Project Setup Guide
+---
+## Project Setup Guide for Windows 11
 
-Follow these steps carefully to run the project locally.
+Follow these steps carefully to run the project locally on **Windows 11**.
 
-| Step | Action | Command / Details |
-|------|--------|-------------------|
-| **1** | **Clone the repository** | ```bash\ngit clone <your-repository-link>\n``` Example: ```bash\ngit clone https://github.com/your-username/voya.git\n``` |
-| **2** | **Move into the project folder** | ```bash\ncd voya\n``` |
-| **3** | **Open the project in VS Code** | If VS Code is added to PATH, run: ```bash\ncode .\n``` If `code .` does not work, open **VS Code** manually and go to **File → Open Folder → choose the `voya` folder** |
-| **4** | **Install dependencies** | ```bash\nnpm install\n``` This installs all dependencies listed in `package.json` |
-| **5** | **Verify installed top-level packages** | ```bash\nnpm list --depth=0\n``` You should see packages similar to: `@eslint/js`, `@types/react-dom`, `@types/react`, `@vitejs/plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`, `eslint`, `globals`, `react-dom`, `react`, `vite` |
-| **6** | **Create the `.env` file** | Create a file named `.env` in the **root folder** of the project, where `package.json` and `vite.config.js` are located |
+| Step | What to Do | Command / Action | Expected Result |
+|------|-------------|------------------|-----------------|
+| **1** | **Install Node.js** | Download and install **Node.js** from the official Node.js website | **Node.js** and **npm** will be installed on your system |
+| **2** | **Install Git** | Download and install **Git** from the official Git website | You will be able to use `git clone` in Command Prompt, PowerShell, or VS Code terminal |
+| **3** | **Install VS Code** | Download and install **Visual Studio Code** from the official VS Code website | You will have a code editor with a built-in terminal |
+| **4** | **Open a terminal** | Open **Command Prompt**, **PowerShell**, or **VS Code Terminal** | You will be ready to run setup commands |
+| **5** | **Check Node.js version** | ```bash\nnode -v\n``` | A version number such as `v22.0.0` should appear |
+| **6** | **Check npm version** | ```bash\nnpm -v\n``` | A version number such as `10.5.1` should appear |
+| **7** | **Check Git version** | ```bash\ngit --version\n``` | A version number such as `git version 2.xx.x` should appear |
+| **8** | **Check VS Code command support** | ```bash\ncode --version\n``` | If installed in PATH, VS Code version details will appear |
+| **9** | **Clone the repository** | ```bash\ngit clone <your-repository-link>\n``` | The project folder will be downloaded to your system |
+| **10** | **Move into the project folder** | ```bash\ncd voya\n``` | Terminal will point to the `voya` folder |
+| **11** | **Open the project in VS Code** | ```bash\ncode .\n``` | The project will open in **VS Code** |
+| **12** | **Install project dependencies** | ```bash\nnpm install\n``` | All packages from `package.json` will be installed |
+| **13** | **Verify installed top-level packages** | ```bash\nnpm list --depth=0\n``` | You will see installed packages like **react**, **react-dom**, and **vite** |
+| **14** | **Create a `.env` file** | In the root folder, create a file named `.env` | The project will be ready for API key configuration |
+| **15** | **Add your API keys** | Add the required environment variables inside `.env` | The app will be able to connect to the APIs |
+| **16** | **Start the development server** | ```bash\nnpm run dev\n``` | Vite will start a local development server |
+| **17** | **Open the app in the browser** | Open the URL shown in the terminal, usually `http://localhost:5173` | The Voya app will run locally in your browser |
 
 ---
 
-## Example Project Structure
+## Example Commands for Windows 11
+
+### Check installed versions
 
 ```bash
-voya/
-├── node_modules/
-├── public/
-├── src/
-├── .env
-├── package.json
-├── vite.config.js
+node -v
+npm -v
+git --version
+code --version
+
 
 
