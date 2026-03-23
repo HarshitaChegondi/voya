@@ -1,16 +1,42 @@
-# React + Vite
+# Voya - Your Travel AI Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Voya is a lightweight **AI-powered travel companion** built with **React + Vite**. It helps users plan trips like a smart travel friend by suggesting **cheap flights, hotel options, packing tips, travel advice, live weather updates, and cost estimation**.
 
-Currently, two official plugins are available:
+The app connects to **Claude API** for travel planning conversations and uses a **Weather API** for live weather insights. It is designed to be responsive, interactive, and easy to use across devices, which is why the name **Companion** fits perfectly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Voya includes the following features:
 
-## Expanding the ESLint configuration
+- **Prompt input + submit button** for travel-related questions
+- **AI-powered responses** using **Claude API**
+- **Dynamic result rendering** with structured response cards for:
+  - Flights
+  - Hotels
+  - Packing suggestions
+  - Travel tips
+- **Live weather** integration using Weather API
+- **Loading states** with a custom loading experience
+- **Error handling** for failed API calls or unexpected issues
+- **Chat history** with past prompts and responses
+- **Delete functionality**
+  - Delete selected chats
+  - Delete all chats at once
+- **Search modal** for searching previous chats
+- **Dark / Light theme**
+- **Responsive design** for mobile, tablet, and desktop
+- **Cost estimator**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+### Frontend
+- **React**
+- **Vite**
+
+### APIs
+- **Claude API**
+- **Weather API**
+
