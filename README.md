@@ -56,7 +56,7 @@ Bonus
 
 ---
 
-## System Requirements
+## Project Setup Guide
 
 To run this project, make sure your system meets the following requirements:
 
@@ -82,7 +82,7 @@ VITE_WEATHER_API_KEY=your_weather_api_key
 Here’s your updated section with **PowerShell** command formatting:
 
 
-## Project Setup Guide
+## Steps to run this project
 
 Follow these steps carefully to run the project locally on **Windows 11**.
 
