@@ -82,7 +82,7 @@ VITE_WEATHER_API_KEY=your_weather_api_key
 Here’s your updated section with **PowerShell** command formatting:
 
 
-## Project Setup Guide for Windows 11
+## Project Setup Guide
 
 Follow these steps carefully to run the project locally on **Windows 11**.
 
