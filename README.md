@@ -115,11 +115,6 @@ code --version
 ```
 
 
-One small improvement: for the **folder structure**, keep it as plain text or `text` instead of `powershell`, because it is not actually a PowerShell command.
-
-Better version:
-
-
 ### Example project structure
 ```text
 voya/
