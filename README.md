@@ -101,7 +101,7 @@ VS Code is recommended because it provides:
 
 Here’s your updated section with **PowerShell** command formatting:
 
-```
+
 ## Project Setup Guide for Windows 11
 
 Follow these steps carefully to run the project locally on **Windows 11**.
@@ -126,7 +126,6 @@ Follow these steps carefully to run the project locally on **Windows 11**.
 | **16** | **Start the development server** | `npm run dev` | Vite will start a local development server |
 | **17** | **Open the app in the browser** | Open the URL shown in the terminal, usually `http://localhost:5173` | The Voya app will run locally in your browser |
 
----
 
 ## Example Commands for Windows 11
 
