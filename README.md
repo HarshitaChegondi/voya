@@ -54,3 +54,25 @@ Bonus
 - Yes, the app stores and displays past chats and prompts
 - Include a “Clear” button for the user: Yes, users can delete selected chats or clear all chats
 
+---
+
+## Setup Guide
+
+Follow these steps carefully to run this project on your system.
+
+Prerequisites
+
+Before setting up the project, make sure you have the following installed:
+- Node.js (recommended: latest LTS version)
+- npm (comes with Node.js)
+- A code editor like VS Code
+- A valid Claude API key
+- A valid Weather API key
+
+To check whether Node.js and npm are installed, run:
+node -v
+npm -v
+
+
+
+
