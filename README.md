@@ -70,8 +70,8 @@ Before setting up the project, make sure you have the following installed:
 - A valid Weather API key
 
 To check whether Node.js and npm are installed, run:
-node -v
-npm -v
+- node -v
+- npm -v
 
 
 
