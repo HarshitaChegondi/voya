@@ -68,7 +68,7 @@ To run this project, make sure your system meets the following requirements:
 1. A valid Claude API key
 2. A valid Weather API key
 
-## Add Environment Variables
+### Add Environment Variables
 
 Create `.env` and paste the following in file:
 
