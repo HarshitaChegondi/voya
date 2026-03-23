@@ -64,11 +64,15 @@ To run this project, make sure your system meets the following requirements:
 - Windows 11
 - macOS
 
-**Required Tools:**
-1. Node.js
-2. npm
-3. Git
-4. VS Code or any code editor
+## Software Installation
+
+Install the following software before running the project:
+
+| Software | Purpose | Notes |
+|----------|---------|-------|
+| **Node.js** | Required to run the React + Vite project | Installing **Node.js** also installs **npm** automatically |
+| **Git** | Required to clone the project repository from GitHub | Needed for `git clone` command |
+| **VS Code** | Recommended code editor for opening and managing the project | Provides an easy editor, built-in terminal, and useful extensions for React and JavaScript development |
 
 **Required Accounts / API Access**
 1. A valid Claude API key
