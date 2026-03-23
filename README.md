@@ -56,23 +56,55 @@ Bonus
 
 ---
 
-## Setup Guide
+## System Requirements
 
-Follow these steps carefully to run this project on your system.
+To run this project, make sure your system meets the following requirements:
 
-Prerequisites
+**Supported Operating Systems:**
+-> Windows 11
+-> macOS
 
-Before setting up the project, make sure you have the following installed:
-- Node.js (recommended: latest LTS version)
-- npm (comes with Node.js)
-- A code editor like VS Code
-- A valid Claude API key
-- A valid Weather API key
+**Required Tools:**
+-> Node.js
+-> npm
+-> Git
+-> VS Code or any code editor
 
-To check whether Node.js and npm are installed, run:
-- node -v
-- npm -v
+**Required Accounts / API Access**
+-> A valid Claude API key
+-> A valid Weather API key
 
+**Install the following software before running the project.**
 
+1. Install Node.js:
+- Install Node.js from the official Node.js website.
+- Node.js installation also installs npm automatically.
+
+2. Install Git:
+- Install Git from the official Git website.
+- Git is required to clone the project repository.
+
+3. Install VS Code
+
+Install Visual Studio Code from the official VS Code website.
+
+VS Code is recommended because it provides:
+
+an easy code editor
+built-in terminal
+extensions for React and JavaScript development
+How to Check Installed Versions
+
+Before running the project, verify that the required software is installed correctly.
+
+On Windows 11
+
+Open one of the following:
+
+Command Prompt
+PowerShell
+VS Code Terminal
+
+Run these commands:
 
 
