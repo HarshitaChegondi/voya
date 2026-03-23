@@ -132,5 +132,19 @@ voya/
 ```
 
 
+---
 
+## Live Demo
+
+[View Voya Live](https://harshitachegondi.github.io/voya/)
+
+---
+
+## Important Note
+
+Please use your **own API keys** in the `.env` file to run this project locally and get live responses.
+
+For **security reasons**, API keys are **not included** in the live demo or public repository.
+
+If needed, I can also **show the demo separately**.
 
