@@ -97,14 +97,30 @@ VS Code is recommended because it provides:
 - extensions for React and JavaScript development
 - How to Check Installed Versions
 
-Before running the project, verify that the required software is installed correctly.
-On Windows 11, Open one of the following:
+## Project Setup Guide
 
-Command Prompt
-PowerShell
-VS Code Terminal
+Follow these steps carefully to run the project locally.
 
-Run these commands:
+| Step | Action | Command / Details |
+|------|--------|-------------------|
+| **1** | **Clone the repository** | ```bash\ngit clone <your-repository-link>\n``` Example: ```bash\ngit clone https://github.com/your-username/voya.git\n``` |
+| **2** | **Move into the project folder** | ```bash\ncd voya\n``` |
+| **3** | **Open the project in VS Code** | If VS Code is added to PATH, run: ```bash\ncode .\n``` If `code .` does not work, open **VS Code** manually and go to **File → Open Folder → choose the `voya` folder** |
+| **4** | **Install dependencies** | ```bash\nnpm install\n``` This installs all dependencies listed in `package.json` |
+| **5** | **Verify installed top-level packages** | ```bash\nnpm list --depth=0\n``` You should see packages similar to: `@eslint/js`, `@types/react-dom`, `@types/react`, `@vitejs/plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`, `eslint`, `globals`, `react-dom`, `react`, `vite` |
+| **6** | **Create the `.env` file** | Create a file named `.env` in the **root folder** of the project, where `package.json` and `vite.config.js` are located |
 
+---
+
+## Example Project Structure
+
+```bash
+voya/
+├── node_modules/
+├── public/
+├── src/
+├── .env
+├── package.json
+├── vite.config.js
 
 
