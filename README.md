@@ -5,6 +5,8 @@ Voya is a lightweight **AI-powered travel companion** built with **React + Vite*
 The app connects to **Claude API** for travel planning conversations and uses a **Weather API** for live weather insights. It is designed to be responsive, interactive, and easy to use across devices, which is why the name **Companion** fits perfectly.
 
 ## Tech Stack
+React + Vite
+API
 
 ---
 
