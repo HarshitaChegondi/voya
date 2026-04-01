@@ -14,5 +14,3 @@ The app connects to **Claude API** for travel planning conversations and uses a 
 ### Live Demo: 
 
 [View Voya Live](https://harshitachegondi.github.io/voya/)
-
-
